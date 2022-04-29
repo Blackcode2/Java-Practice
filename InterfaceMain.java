@@ -1,5 +1,9 @@
 interface Calculable {
 	int sum(int x, int y);
+
+	static double divide(int x, int y) {
+		return x / y;
+	}
 }
 
 class RealCal implements Calculable {
