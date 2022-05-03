@@ -1,6 +1,7 @@
 interface Calculable {
 	int sum(int x, int y);
-
+	
+	//static은선언뿐만 아니라 구현까지 했지만 필요했을때만 쓴다.
 	static double divide(int x, int y) {
 		return x / y;
 	}
